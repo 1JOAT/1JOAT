@@ -1,0 +1,162 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    padding-top: 70px;
+}
+
+/* Container Styles */
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Convert Section */
+.convert-section {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.convert-section h2 {
+    font-size: 2.5em;
+    color: #0c11b4;
+    margin-bottom: 20px;
+}
+
+.convert-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.convert-section label {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.convert-section select,
+.convert-section input[type="number"] {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.convert-section button {
+    padding: 10px 20px;
+    font-size: 1.1em;
+    color: #fff;
+    background-color: #0c11b4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.convert-section button:hover {
+    background-color: #080c80;
+}
+
+.convert-section .error {
+    color: red;
+    margin-bottom: 20px;
+}
+
+.convert-section .conversion-info {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+/* Conversion History Section */
+/* Conversion History Section */
+.conversion-history {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin-top: 20px;
+    text-align: center;
+    overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+.conversion-history table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    min-width: 600px; /* Ensure the table doesn't shrink below a reasonable width */
+}
+
+/* Existing styles for th, td, tr, etc. */
+
+
+.conversion-history h2 {
+    font-size: 2.5em;
+    color: #0c11b4;
+    margin-bottom: 20px;
+}
+
+
+
+.conversion-history th,
+.conversion-history td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.conversion-history th {
+    background-color: #0c11b4;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.conversion-history tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.conversion-history tr:hover {
+    background-color: #ddd;
+}
+
+.conversion-history p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .burger div {
+        background-color: #0a0a3f;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .convert-section {
+        padding: 20px;
+    }
+
+    .convert-section select,
+    .convert-section input[type="number"] {
+        max-width: 100%;
+    }
+}

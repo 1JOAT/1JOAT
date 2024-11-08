@@ -1,0 +1,74 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    padding-top: 80px;
+}
+
+/* Container Styles */
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Skill Description Section */
+.skill-description {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+}
+
+.skill-description h1 {
+    font-size: 2em;
+    color: #0c11b4;
+    margin-bottom: 20px;
+}
+
+.skill-card {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+}
+
+.skill-card h2 {
+    font-size: 1.5em;
+    color: #0c11b4;
+    margin-bottom: 10px;
+}
+
+.skill-card p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .burger div {
+        background-color: #0a0a3f;
+    }
+
+    .container {
+        padding: 10px;
+    }
+}

@@ -1,0 +1,218 @@
+/* Admin Dashboard Styles */
+
+/* Global Styles */
+body {
+    margin: 0;
+    padding-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #333;
+    background-color: #f4f4f4; /* Light background for readability */
+}
+
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Welcome Section */
+.welcome-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px; /* More rounded corners */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* Softer shadow */
+    margin-bottom: 20px;
+}
+
+.welcome-section h2 {
+    font-size: 2.5em;
+    color: #0c11b4; /* Primary color */
+    margin-bottom: 15px;
+}
+
+/* Dashboard Section */
+.dashboard {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px; /* More rounded corners */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* Softer shadow */
+    margin-bottom: 20px;
+}
+
+.dashboard .card {
+    margin-bottom: 20px;
+}
+
+.dashboard h2 {
+    font-size: 2.2em; /* Slightly smaller heading for better spacing */
+    color: #0c11b4; /* Primary color */
+    margin-bottom: 15px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    padding: 12px; /* Increased padding for readability */
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #0c11b4; /* Primary color */
+    color: #ffffff;
+    font-size: 1.1em; /* Slightly larger text for emphasis */
+}
+
+/* Form Styles */
+form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap; /* Allow form elements to wrap on smaller screens */
+}
+
+form input, form select, form button {
+    padding: 12px;
+    margin: 5px 0; /* Adjusted margin for better spacing */
+    border: 1px solid #ddd;
+    border-radius: 8px; /* More rounded corners */
+    font-size: 1rem;
+    width: 100%; /* Full width for better alignment */
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #0c11b4; /* Primary color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px; /* Space between input and button */
+}
+
+form button:hover {
+    background-color: #0a0e8d; /* Darker shade of primary color */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+/* Action Buttons in Tables */
+table form {
+    display: inline;
+}
+
+table button {
+    margin: 0;
+    padding: 8px 12px; /* Padding for better button appearance */
+    border-radius: 5px; /* Consistent with form buttons */
+    background-color: #0c11b4; /* Primary color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+table button:hover {
+    background-color: #0a0e8d; /* Darker shade of primary color */
+}
+
+/* Notifications */
+.welcome-section p {
+    font-size: 1em;
+    margin: 10px 0;
+    color: #666; /* Lighter text color for notifications */
+}
+
+/* User Skills Section */
+.user-skills {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* Softer shadow */
+    margin-bottom: 20px;
+    max-width: 100%; /* Ensure it doesn’t overflow container */
+    overflow: hidden; /* Hide overflow */
+}
+
+.user-skills h3 {
+    font-size: 2em;
+    color: #0c11b4; /* Primary color */
+    margin-bottom: 15px;
+}
+
+.user-skills .skill-list {
+    max-width: 100%; /* Ensure it doesn’t overflow */
+    overflow-x: auto; /* Allow horizontal scrolling if necessary */
+    white-space: nowrap; /* Prevent line breaks */
+}
+
+.user-skills .skill-list p {
+    display: inline-block;
+    background-color: #e9ecef; /* Light background for skill items */
+    border-radius: 12px;
+    padding: 8px 12px;
+    margin: 5px;
+    color: #333;
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+/* Withdrawal Request Section */
+.withdrawal-request {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* Softer shadow */
+    margin-bottom: 20px;
+    max-width: 100%; /* Ensure it doesn’t overflow container */
+    overflow: hidden; /* Hide overflow */
+}
+
+.withdrawal-request h3 {
+    font-size: 2em;
+    color: #0c11b4; /* Primary color */
+    margin-bottom: 15px;
+}
+
+.withdrawal-request .request-list {
+    max-width: 100%; /* Ensure it doesn’t overflow */
+    overflow-x: auto; /* Allow horizontal scrolling if necessary */
+    white-space: nowrap; /* Prevent line breaks */
+}
+
+.withdrawal-request .request-list p {
+    display: inline-block;
+    background-color: #e9ecef; /* Light background for request items */
+    border-radius: 12px;
+    padding: 8px 12px;
+    margin: 5px;
+    color: #333;
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .dashboard h2,
+    .welcome-section h2 {
+        font-size: 1.8em; /* Smaller heading size for mobile */
+    }
+
+    form input, form select, form button {
+        width: 100%; /* Full width on small screens */
+        margin: 5px 0; /* Adjusted margin for better spacing */
+    }
+    
+    table th, table td {
+        font-size: 0.9em; /* Slightly smaller text for table cells */
+    }
+
+    table button {
+        padding: 6px 10px; /* Smaller button padding */
+    }
+
+    .user-skills .skill-list p,
+    .withdrawal-request .request-list p {
+        display: block; /* Stack items vertically on small screens */
+        margin-bottom: 10px; /* Space between stacked items */
+    }
+}

@@ -1,0 +1,94 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding-top: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Container Styles */
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Tasks Section */
+.tasks-section {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.tasks-section h2 {
+    font-size: 2.5em;
+    color: #0c11b4;
+    margin-bottom: 20px;
+}
+
+.task-card {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.task-card h3 {
+    font-size: 1.5em;
+    color: #0c11b4;
+    margin-bottom: 10px;
+}
+
+.task-card p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.task-card .button {
+    display: inline-block;
+    cursor: pointer;
+    padding: 7px 15px;
+    font-size: 1.1em;
+    margin-right: 10px;
+    color: #fff;
+    background-color: #0c11b4;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.7s ease;
+}
+
+.task-card .button:hover {
+    background-color: #000484;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .burger div {
+        background-color: #0a0a3f;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .tasks-section {
+        padding: 20px;
+    }
+
+    .task-card {
+        padding: 15px;
+    }
+}

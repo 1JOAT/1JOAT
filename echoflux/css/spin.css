@@ -1,0 +1,80 @@
+
+body{
+    padding-top: 50px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.spin-section {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-align: center;
+    margin-top: 20px;
+}
+.spin-section h2 {
+    font-size: 2.5em;
+    color: #0c11b4; 
+    margin-bottom: 10px;
+}
+
+.spin-section p {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+
+#spin-button {
+    padding: 10px 20px;
+    font-size: 1.1em;
+    color: #fff;
+    background-color: #0c11b4; 
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 1s ease;
+    margin-top: 20px;
+}
+
+#spin-button:hover {
+    background-color: #010226; 
+}
+.spin-section {
+    position: relative;
+    text-align: center;
+}
+
+.loading-spinner {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #3498db;
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+    z-index: 10; /* Make sure it appears above other content */
+}
+
+@keyframes spin {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+#prizes-list {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9; /* Optional: Add background color */
+    text-align: left; /* Align text to the left */
+    display: inline-block; /* Adjust width to content */
+}
+

@@ -1,0 +1,94 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding-top: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Container Styles */
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Profile Section */
+.profile-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.profile-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.profile-card h2 {
+    font-size: 2.5em;
+    color: #0c11b4;
+    margin-bottom: 20px;
+}
+.profile-card hr{
+    color: #0c11b4;
+}
+
+.profile-info {
+    text-align: left;
+}
+
+.profile-info p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.profile-info strong {
+    color: #0c11b4;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .burger div {
+        background-color: #0a0a3f;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .profile-section {
+        padding: 20px 10px;
+    }
+
+    .profile-card {
+        padding: 10px;
+    }
+
+    .profile-card h2 {
+        font-size: 2em;
+    }
+
+    .profile-info p {
+        font-size: 1em;
+    }
+}
