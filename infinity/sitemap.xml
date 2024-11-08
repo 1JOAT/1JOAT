@@ -1,0 +1,27 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://www.infinityfa.com.ng/</loc>
+<lastmod>2024-09-15</lastmod>
+<priority>1.00</priority>
+</url>
+<url>
+<loc>https://www.infinityfa.com.ng/signup</loc>
+<lastmod>2024-09-15</lastmod>
+<priority>0.90</priority>
+</url>
+<url>
+<loc>https://www.infinityfa.com.ng/login</loc>
+<lastmod>2024-09-15</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://www.infinityfa.com.ng/blog.html</loc>
+<lastmod>2024-09-15</lastmod>
+<priority>0.70</priority>
+</url>
+<url>
+<loc>https://www.infinityfa.com.ng/contact.html</loc>
+<lastmod>2024-09-15</lastmod>
+<priority>0.60</priority>
+</url>
+</urlset>

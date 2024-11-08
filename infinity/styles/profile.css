@@ -1,0 +1,161 @@
+body {
+    font-family: 'Mukta', sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 60px;
+    color: #333;
+    background-color: #f1f1f1;
+}
+
+@media screen and (min-width: 768px){
+    body{
+        margin-left: 270px;
+    }
+}
+/* Modern Profile Container */
+.profile-container {
+    margin: 40px auto;
+    padding: 30px;
+    max-width: 900px;
+    background-color: #104cba; /* Main blue background */
+    border-radius: 15px;
+    color: white;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.profile-container:hover {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Modern Heading Style */
+.profile-container h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: hsl(21, 100%, 72%); /* Orange accent */
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    border-bottom: 2px solid hsl(21, 100%, 72%);
+    display: inline-block;
+}
+
+/* Profile Information Table */
+table {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+th, td {
+    text-align: left;
+    padding: 15px 20px;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+}
+
+/* Table header styling */
+th {
+    background-color: hsl(21, 100%, 72%);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+td {
+    background-color: rgba(255, 255, 255, 0.05);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Hover effect on table rows */
+tr:hover td {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Styling for when there are no active subscriptions */
+p {
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    color: white;
+}
+
+/* Card styling for Active Subscriptions table */
+table.active-subscriptions {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+/* Button style for the hover effect */
+a.button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: hsl(21, 100%, 72%);
+    color: white;
+    text-transform: uppercase;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+a.button:hover {
+    background-color: #ff6b00; /* Slightly darker orange */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .profile-container {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    th, td {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    .profile-container h2 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    a.button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+/* Support Message Styling */
+.support-message {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.support-message p {
+    margin: 0;
+    color: white;
+}
+
+.support-message a {
+    color: hsl(21, 100%, 72%);
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.support-message a:hover {
+    color: #ff6b00;
+}

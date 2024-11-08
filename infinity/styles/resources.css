@@ -1,0 +1,129 @@
+/* Body and general settings */
+body {
+    font-family: 'Mukta', sans-serif;
+    margin: 0;
+    padding: 10px 15px;
+    padding-bottom: 100px;
+    color: #333;
+    background-color: #f1f1f1;
+}
+
+/* h2 Styling */
+.h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #104cba;
+    font-weight: 600;
+}
+.desc{
+    text-align: center;
+    color: #333;
+}
+
+.p{
+    text-align: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+hr{
+    color: #ff5d0f;
+    width: 100%;
+    margin:  20px 0px;
+}
+/* Signal option card styling */
+.signal-option {
+    border: none;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.signal-option:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.signal-option h3, .p {
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #104cba;
+    font-weight: 500;
+}
+
+/* Button styling */
+button[type="submit"] {
+    background-color: #ff772e;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+button[type="submit"]:hover {
+    background-color: #ff5d0f;
+    transform: scale(1.05);
+}
+
+/* Balance info */
+.balance-info {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Message boxes */
+.message {
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
+
+.success {
+    background-color: #ddffdd;
+    color: #008000;
+}
+
+.error {
+    background-color: #ffdddd;
+    color: #cc0000;
+}
+
+/* Responsive grid for signal options */
+@media (min-width: 568px) {
+    .signal-options-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .signal-option {
+        text-align: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .signal-options-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Bottom spacing for fixed elements */
+@media screen and (min-width: 768px) {
+    body {
+        margin-left: 270px;
+    }
+}

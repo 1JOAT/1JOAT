@@ -1,0 +1,266 @@
+body {
+    font-family: 'Mukta', sans-serif;
+    margin: 0;
+    padding: 0px 15px;
+    padding-bottom: 60px;
+    color: #333;
+    background-color: #f1f1f1;
+}
+@media  screen and (min-width:768px) {
+    body{
+        margin-left: 270px;
+    }
+}
+
+.top-up-section {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    max-width: 1000px; 
+}
+
+.top-up-section h2 {
+    color: #0030ee;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.top-up-section label {
+    font-size: 16px;
+    color: #333;
+}
+
+.top-up-section input[type="number"],
+.top-up-section select {
+    width: 95%;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.top-up-section input[type="number"]::-webkit-outer-spin-button,
+.top-up-section input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.top-up-section input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+
+.top-up-section button {
+    background-color: #ff772e;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 30%;
+}
+
+.top-up-section button:hover {
+    background-color: #ff9055;
+}
+
+.deposit-history-section {
+    background-color: #f9f9f9;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+.deposit-history-section h2 {
+    color: #0030ee;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.deposit-history-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.deposit-history-section th,
+.deposit-history-section td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.deposit-history-section th {
+    background-color: #555;
+    color: white;
+    font-size: 18px;
+}
+
+.deposit-history-section td {
+    font-size: 16px;
+    color: #333;
+}
+
+.deposit-history-section tr:hover {
+    background-color: #f1f1f1;
+}
+
+.deposit-history-section td span {
+    color: #0030ee;
+}
+
+.no-deposit-message {
+    text-align: center;
+    color: #555;
+    font-size: 18px;
+}
+
+.welcomed {
+    text-align: center;
+    color: #0030ee;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .top-up-section,
+    .deposit-history-section {
+        margin-left: 0px;
+        padding: 20px;
+    }
+
+    .top-up-section button {
+        font-size: 14px;
+        padding: 12px 24px;
+    }
+
+    .table-container {
+        overflow-x: auto;
+        padding-bottom: 10px;
+    }
+
+    .deposit-history-section th,
+    .deposit-history-section td {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+.crypto-payment-section {
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.crypto-payment-section h2 {
+    color: #0030ee;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.crypto-payment-section p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.crypto-address {
+    color: #0030ee;
+    font-weight: bold;
+    font-size: 18px;
+    word-break: break-all; 
+}
+
+.crypto-input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.crypto-button {
+    background-color: #ff772e;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.crypto-button:hover {
+    background-color: #ff9055;
+}
+
+@media (max-width: 768px) {
+    .crypto-payment-section {
+        padding: 20px;
+        max-width: 100%;
+    }
+
+    .crypto-button {
+        font-size: 14px;
+        padding: 12px 24px;
+    }
+}
+
+
+.review-message {
+    background-color: #e6ffe6;
+    color: #2e7d32;
+    padding: 15px;
+    border: 1px solid #2e7d32;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Error message styling */
+.error-message {
+    background-color: #ffe6e6;
+    color: #d32f2f;
+    padding: 15px;
+    border: 1px solid #d32f2f;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .review-message, .error-message {
+        font-size: 14px;
+        padding: 12px;
+        max-width: 100%;
+    }
+}

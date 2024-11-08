@@ -1,0 +1,20 @@
+Paystack Response: {"status":true,"message":"Authorization URL created","data":{"authorization_url":"https://checkout.paystack.com/3krz8w8mr35eqm2","access_code":"3krz8w8mr35eqm2","reference":"ref_66de418b7fb29"}}
+Paystack Response: {"status":true,"message":"Authorization URL created","data":{"authorization_url":"https://checkout.paystack.com/754w6lnv0c3so11","access_code":"754w6lnv0c3so11","reference":"ref_66de41c61dc96"}}
+cURL Error: Could not resolve host: api.paystack.co
+Paystack Response: 
+Error initializing Paystack payment: Unknown error from Paystack
+Paystack Response: {"status":true,"message":"Authorization URL created","data":{"authorization_url":"https://checkout.paystack.com/zrqd80wsy5pbjtn","access_code":"zrqd80wsy5pbjtn","reference":"ref_66dec96d2addb"}}
+cURL Error: Could not resolve host: api.paystack.co
+Paystack Response: 
+Error initializing Paystack payment: Unknown error from Paystack
+Paystack Response: {"status":true,"message":"Authorization URL created","data":{"authorization_url":"https://checkout.paystack.com/3qlpttjvjxufc5t","access_code":"3qlpttjvjxufc5t","reference":"ref_66e0e5f87f391"}}
+Paystack Response: {"status":true,"message":"Authorization URL created","data":{"authorization_url":"https://checkout.paystack.com/tjk5xoo5a93xfhn","access_code":"tjk5xoo5a93xfhn","reference":"ref_66e46a1e16ee5"}}
+Paystack Response: {"status":true,"message":"Authorization URL created","data":{"authorization_url":"https://checkout.paystack.com/ml4tbpj2hjfzsiu","access_code":"ml4tbpj2hjfzsiu","reference":"ref_66e6da90cf48e"}}
+Paystack Response: {"status":false,"message":"Watch your spending. Amount cannot be processed online","meta":{"nextStep":"Reduce the amount you're attempting to charge the customer"},"type":"validation_error","code":"amount_exceed_limit"}
+Error initializing Paystack payment: Watch your spending. Amount cannot be processed online
+Paystack Response: {"status":false,"message":"Watch your spending. Amount cannot be processed online","meta":{"nextStep":"Reduce the amount you're attempting to charge the customer"},"type":"validation_error","code":"amount_exceed_limit"}
+Error initializing Paystack payment: Watch your spending. Amount cannot be processed online
+Paystack Response: {"status":true,"message":"Authorization URL created","data":{"authorization_url":"https://checkout.paystack.com/aiuoxy0p02bqiyp","access_code":"aiuoxy0p02bqiyp","reference":"ref_66e712861807e"}}
+Paystack Response: {"status":false,"message":"Watch your spending. Amount cannot be processed online","meta":{"nextStep":"Reduce the amount you're attempting to charge the customer"},"type":"validation_error","code":"amount_exceed_limit"}
+Error initializing Paystack payment: Watch your spending. Amount cannot be processed online
+Paystack Response: {"status":true,"message":"Authorization URL created","data":{"authorization_url":"https://checkout.paystack.com/xlbr0umxhzuxi1a","access_code":"xlbr0umxhzuxi1a","reference":"ref_66e724f492526"}}
